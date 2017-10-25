@@ -20,12 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data = array(
-			'title' => 'My title',
-			'name' => 'My Name',
-			'date' => 'My date'
-		);
-		$this->db->insert('mytable', $data);
-		$this->load->view('welcome_message');
+		$tables = $this->db->list_tables();
+		
+		foreach ($tables as $table)
+		{
+		   echo $table;
+		}
+		// $this->load->view('welcome_message');
 	}
 }
