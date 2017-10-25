@@ -23,7 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </style>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map">
+        <div style="width:300px;height:300px;background-color:#000000;"></div>
+    </div>
     <script>
       var map;
       function initMap() {
