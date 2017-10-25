@@ -20,11 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->db->select('*');
-		$this->db->from('store');
-		$data = $this->db->get()->result();
-		var_dump($data);
-		exit();
 		$this->load->view('welcome_message');
 	}
 }
