@@ -23,19 +23,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </style>
   </head>
   <body>
-    <div id="map">
-        <div style="width:300px;height:300px;background-color:#000000;"></div>
-    </div>
+    <div id="map"></div>
     <script>
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 150.644},
+          gestureHandling:"greedy",
           zoom: 8
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzoj1hdNeUrzN-H27I48ecIk5aQ1LTVk&callback=initMap"
     async defer></script>
   </body>
 </html>
