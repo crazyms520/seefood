@@ -20,18 +20,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-<<<<<<< HEAD
-		$tables = $this->db->list_tables();
-		
-		foreach ($tables as $table)
-		{
-		   echo "test".$table;
-=======
-		if ($this->db->table_exists('table_name')) {
-   			echo "yes";
-		} else {
-			echo "no";
->>>>>>> 8f095f9086f87d3ac5cb6f7d05c878d2a5002035
+		if (!$this->db->table_exists('store')) {   			
+			$this->dbforge->add_field(array(
+				'version' => array('type' => 'INT', 'constraint' => 3),
+			));
+
+			$this->dbforge->create_table('store', TRUE);
+
+			$this->db->insert('store', array('version' => 0));
 		}
 		$this->load->view('welcome_message');
 	}
