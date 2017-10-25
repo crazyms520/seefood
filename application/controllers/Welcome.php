@@ -20,12 +20,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+<<<<<<< HEAD
 		$tables = $this->db->list_tables();
 		
 		foreach ($tables as $table)
 		{
 		   echo "test".$table;
+=======
+		if ($this->db->table_exists('table_name')) {
+   			echo "yes";
+		} else {
+			echo "no";
+>>>>>>> 8f095f9086f87d3ac5cb6f7d05c878d2a5002035
 		}
-		// $this->load->view('welcome_message');
+		$this->load->view('welcome_message');
 	}
 }
