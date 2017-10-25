@@ -30,11 +30,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 150.644},
+          gestureHandling:"greedy",
           zoom: 8
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgFiB7XO2eAJiboOeDpUSwfDmp5BANEFI&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzoj1hdNeUrzN-H27I48ecIk5aQ1LTVk&callback=initMap"
     async defer></script>
   </body>
 </html>
