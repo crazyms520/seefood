@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
     async defer></script>
   </body>
 </html>
