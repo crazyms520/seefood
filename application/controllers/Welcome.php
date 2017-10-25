@@ -23,9 +23,8 @@ class Welcome extends CI_Controller {
 		$this->db->select('*');
 		$this->db->from('store');
 		$data = $this->db->get()->result();
-		foreach ($data as $d) {
-			echo $d.'<br />';
-		}
+		var_dump($data);
+		exit();
 		$this->load->view('welcome_message');
 	}
 }
