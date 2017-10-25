@@ -23,9 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </style>
   </head>
   <body>
-    <div id="map">
-        <div style="width:300px;height:300px;background-color:#000000;"></div>
-    </div>
+    <div id="map"></div>
+    <div style="width:300px;height:300px;background-color:#000000;"></div>
     <script>
       var map;
       function initMap() {
@@ -35,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgFiB7XO2eAJiboOeDpUSwfDmp5BANEFI&callback=initMap"
     async defer></script>
   </body>
 </html>
