@@ -24,7 +24,7 @@ class Welcome extends CI_Controller {
 		
 		foreach ($tables as $table)
 		{
-		   echo $table;
+		   echo "test".$table;
 		}
 		// $this->load->view('welcome_message');
 	}
