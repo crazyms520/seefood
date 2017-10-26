@@ -30,11 +30,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       .nav-bar {
           position: fixed;
           bottom: 0;
-          left: 0;
+          left: 50%;
           z-index: 1;
       }
 
       .circle {
+          display: inline-block;
           width: 50px;
           height: 50px;
           border-radius: 50%;
