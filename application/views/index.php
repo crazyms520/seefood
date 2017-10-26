@@ -34,6 +34,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       }
 
       .circle {
+          width: 50px;
+          height: 50px;
           border-radius: 50%;
           background: black;
       }
@@ -55,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 map = new google.maps.Map(document.getElementById('map'), {
                 center: {lat: 25.0169639, lng: 121.226184},
                 gestureHandling:"greedy",
-                zoom: 14
+                zoom: 12
                 });
             }
         </script>
