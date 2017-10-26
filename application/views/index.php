@@ -24,12 +24,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </head>
   <body>
     <div id="map"></div>
-    <div style="width: 50px; height: 50px; background-color: #000000; position: absolute; top: 0; left: 0;"></div>
+    <div style="width: 50px; height: 50px; background-color: #000000; position: absolute; top: 0; left: 0;gi"></div>
     <script>
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+          center: {lat: 25.0169639, lng: 121.226184},
           gestureHandling:"greedy",
           zoom: 8
         });
