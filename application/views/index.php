@@ -37,6 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     .icon-spoon-knife:before {
         content: "\e9a3";
+        
     }
     .icon-heart:before {
         content: "\e9da";
@@ -85,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="circle" ><span class="icon-spoon-knife"></span></div>
+            <div class="circle icon-spoon-knife" ></div>
             <div class="circle" ><span class="icon-heart"></span></div>
             <!-- <div class="circle" ></div> -->
         </div>
