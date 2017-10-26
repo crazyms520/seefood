@@ -41,6 +41,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           border-radius: 50%;
           background-color: rgba(142, 249, 172, 0.5);
       }
+
+      .circle:hover {
+        width: 55px;
+        height: 55px;
+        background-color: rgba(142, 249, 172, 1);
+      }
     </style>
   </head>
   <body>
