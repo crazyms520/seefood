@@ -39,6 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           width: 50px;
           height: 50px;
           border-radius: 50%;
+          transition: width 1s, height 1s , background-color 1s;
           background-color: rgba(142, 249, 172, 0.5);
       }
 
