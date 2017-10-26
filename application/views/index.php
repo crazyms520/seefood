@@ -35,24 +35,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="circle" >
-            <div class="circle" >
-            <div class="circle" >
+            <div class="circle" ></div>
+            <div class="circle" ></div>
+            <div class="circle" ></div>
         </div>
-        
-
-        </div>
+        <!-- google map-->
         <div id="map"></div>
-    
+        <!-- google map-->
         <script>
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 25.0169639, lng: 121.226184},
-            gestureHandling:"greedy",
-            zoom: 14
-            });
-        }
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 25.0169639, lng: 121.226184},
+                gestureHandling:"greedy",
+                zoom: 14
+                });
+            }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzoj1hdNeUrzN-H27I48ecIk5aQ1LTVk&callback=initMap"
         async defer></script>
