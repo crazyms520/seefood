@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        transition: width 1s, height 1s , background-color 1s;
+        transition: width .2s, height .2s , background-color 1s;
         background-color: rgba(142, 249, 172, 0.5);
     }
 
@@ -85,8 +85,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="circle" ></div>
-            <div class="circle" ></div>
+            <div class="circle" ><span class="icon-spoon-knife"></span></div>
+            <div class="circle" ><span class="icon-heart"></span></div>
             <!-- <div class="circle" ></div> -->
         </div>
         <!-- google map-->
