@@ -16,26 +16,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
+        position: absolute;
         height: 100%;
         margin: 0;
         padding: 0;
       }
+      .nav-bar {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+      }
+      .circle {
+          border-radius: 50%;
+          background: black;
+      }
     </style>
   </head>
   <body>
-    <div id="map"></div>
-    <div style="width: 50px; height: 50px; background-color: #000000; position: absolute; top: 0; left: 0;gi"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 25.0169639, lng: 121.226184},
-          gestureHandling:"greedy",
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzoj1hdNeUrzN-H27I48ecIk5aQ1LTVk&callback=initMap"
-    async defer></script>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="circle" >
+            <div class="circle" >
+            <div class="circle" >
+        </div>
+        
+
+        </div>
+        <div id="map"></div>
+    
+        <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 25.0169639, lng: 121.226184},
+            gestureHandling:"greedy",
+            zoom: 14
+            });
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzoj1hdNeUrzN-H27I48ecIk5aQ1LTVk&callback=initMap"
+        async defer></script>
+    </div>
   </body>
 </html>
