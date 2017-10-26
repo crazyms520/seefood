@@ -16,16 +16,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
-        position: absolute;
+        position: relative ;
         height: 100%;
         margin: 0;
         padding: 0;
       }
+
+      .container {
+        width: 100%;
+        height: 100%;
+      }
+
       .nav-bar {
           position: fixed;
           bottom: 0;
           left: 0;
       }
+
       .circle {
           border-radius: 50%;
           background: black;
