@@ -12,11 +12,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     @font-face {
         font-family: 'icomoon';
-        src:  url('fonts/icomoon.eot?sd6w5h');
-        src:  url('fonts/icomoon.eot?sd6w5h#iefix') format('embedded-opentype'),
-            url('fonts/icomoon.ttf?sd6w5h') format('truetype'),
-            url('fonts/icomoon.woff?sd6w5h') format('woff'),
-            url('fonts/icomoon.svg?sd6w5h#icomoon') format('svg');
+        src:  url('icomoon/fonts/icomoon.eot?sd6w5h');
+        src:  url('icomoon/fonts/icomoon.eot?sd6w5h#iefix') format('embedded-opentype'),
+            url('icomoon/fonts/icomoon.ttf?sd6w5h') format('truetype'),
+            url('icomoon/fonts/icomoon.woff?sd6w5h') format('woff'),
+            url('icomoon/fonts/icomoon.svg?sd6w5h#icomoon') format('svg');
         font-weight: normal;
         font-style: normal;
     }
