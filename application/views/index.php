@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           width: 50px;
           height: 50px;
           border-radius: 50%;
-          background: black;
+          background-color: rgb(142, 249, 172, 0.8);
       }
     </style>
   </head>
