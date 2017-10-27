@@ -91,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="nav-bar">
             <div class="circle_content">
                 <div class="circle" >
-                    <!-- <span class="icon-spoon-knife"> -->
+                    <span class="icon-spoon-knife">
                 </div>
             </div> 
             <div class="circle_content">
