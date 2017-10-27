@@ -34,18 +34,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -moz-osx-font-smoothing: grayscale;
         }
         .icon-spoon-knife:before {
-            position: absolute;
-            top: 20%;
+            display: inline-block;
             text-align: center;
             font-size: 30px;
             width: 100%;
             height: 100%;
             content: "\e9a3";
             transition: font-size .2s;
+            background-color: rgba(142, 249, 172, .5);
         }
-        .icon-spoon-knife:hover::before {
-            font-size: 35px;
-        }
+        
         .icon-heart:before {
             position: absolute;
             top: 20%;
@@ -78,40 +76,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             left: 50%;
             z-index: 1;
         }
-        .circle_content {
-            display: inline-block;
-            width: 60px;
-            height: 60px;
-        }
         .circle {
             position: relative;
             display: inline-block;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            transition: width .2s, height .2s , background-color .5s;
-            background-color: rgba(142, 249, 172, 0.5);
-        }
-        .circle:hover {
-            width: 55px;
-            height: 55px;
-            background-color: rgba(142, 249, 172, 1);
+            width: 60px;
+            height: 60px;  
         }
     </style>
   </head>
   <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="circle_content">
-                <div class="circle" >
-                    <span class="icon-spoon-knife">
-                </div>
-            </div> 
-            <div class="circle_content">
-                <div class="circle" >
-                    <span class="icon-heart"></span>
-                </div> 
+            <div class="circle" >
+                <span class="icon-spoon-knife">
             </div>
+            <div class="circle" >
+                <span class="icon-heart"></span>
+            </div> 
         </div>
         <!-- google map-->
         <div id="map"></div>
