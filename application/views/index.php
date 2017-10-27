@@ -39,11 +39,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             font-size: 30px;
             width: 100%;
             height: 100%;
+            line-height: 60px;
             content: "\e9a3";
-            transition: font-size .2s;
+            transition: all
             border-radius: 50%;
             background-color: rgba(142, 249, 172, .5);
             
+        }
+        .icon-spoon-knife:hover::before {
+            font-size: 35px;
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            background-color: rgba(142, 249, 172, 1);
         }
         
         .icon-heart:before {
