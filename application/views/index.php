@@ -34,11 +34,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -moz-osx-font-smoothing: grayscale;
         }
         .icon-spoon-knife:before {
+            position: absolute;
+            top: 20%;
+            text-align: center;
             width: 100%;
             height: 100%;
             content: "\e9a3";
         }
         .icon-heart:before {
+            position: absolute;
+            top: 20%;
+            text-align: center;
             width: 100%;
             height: 100%;
             content: "\e9da";
@@ -72,6 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             height: 60px;
         }
         .circle {
+            position: relative;
             display: inline-block;
             width: 50px;
             height: 50px;
@@ -96,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div> 
             <div class="circle_content">
                 <div class="circle" >
-                    <!-- <span class="icon-heart"></span> -->
+                    <span class="icon-heart"></span>
                 </div> 
             </div>
         </div>
