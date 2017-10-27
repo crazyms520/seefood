@@ -41,6 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             width: 100%;
             height: 100%;
             content: "\e9a3";
+            transition: font-size .2s;
         }
         .icon-spoon-knife:hover::before {
             font-size: 35px;
@@ -88,7 +89,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            transition: width .2s, height .2s , background-color 1s;
+            transition: width .2s, height .2s , background-color .5s;
             background-color: rgba(142, 249, 172, 0.5);
         }
         .circle:hover {
