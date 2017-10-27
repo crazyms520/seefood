@@ -41,27 +41,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             height: 50px;
             line-height: 50px;
             content: "\e9a3";
-            transition: all;
             border-radius: 50%;
             background-color: rgba(142, 249, 172, .5);
+            -webkit-transition: all;
+            -moz-transition: all; 
+            transition: all;
             
         }
-        .icon-spoon-knife:hover::before {
+        .icon-heart:before {
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            content: "\e9da";
+            border-radius: 50%;
+            background-color: rgba(142, 249, 172, .5);
+            -webkit-transition: all;
+            -moz-transition: all; 
+            transition: all;
+        }
+        .icon-spoon-knife:hover::before ,.icon-heart:hover::before {
             font-size: 35px;
             width: 55px;
             height: 55px;
             line-height: 55px;
             background-color: rgba(142, 249, 172, 1);
-        }
-        
-        .icon-heart:before {
-            position: absolute;
-            top: 20%;
-            text-align: center;
-            font-size: 30px;
-            width: 100%;
-            height: 100%;
-            content: "\e9da";
         }
         /* Always set the map height explicitly to define the size of the div
         * element that contains the map. */
