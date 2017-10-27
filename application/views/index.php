@@ -37,8 +37,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: inline-block;
             text-align: center;
             font-size: 30px;
-            width: 100%;
-            height: 100%;
+            width: 60px;
+            height: 60px;
             line-height: 60px;
             content: "\e9a3";
             transition: all;
@@ -89,8 +89,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .circle {
             position: relative;
             display: inline-block;
-            width: 70px;
-            height: 70px;  
+            width: 65px;
+            height: 65px;  
         }
     </style>
   </head>
