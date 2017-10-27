@@ -65,6 +65,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             left: 50%;
             z-index: 1;
         }
+        .circle_content {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+        }
         .circle {
             display: inline-block;
             width: 50px;
@@ -83,12 +88,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="content">
+            <div class="circle_content">
                 <div class="circle" >
                     <span class="icon-spoon-knife">
                 </div>
             </div> 
-            <div class="content">
+            <div class="circle_content">
                 <div class="circle" >
                     <span class="icon-heart"></span>
                 </div> 
