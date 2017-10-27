@@ -67,6 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             width: 55px;
             height: 55px;
             line-height: 55px;
+            cursor: pointer;
             background-color: rgba(142, 249, 172, 1);
         }
         /* Always set the map height explicitly to define the size of the div
