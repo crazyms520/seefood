@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             height: 100%;
             line-height: 60px;
             content: "\e9a3";
-            transition: all
+            transition: all;
             border-radius: 50%;
             background-color: rgba(142, 249, 172, .5);
             
@@ -89,8 +89,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .circle {
             position: relative;
             display: inline-block;
-            width: 60px;
-            height: 60px;  
+            width: 70px;
+            height: 70px;  
         }
     </style>
   </head>
