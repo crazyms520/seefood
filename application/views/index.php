@@ -42,6 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             content: "\e9a3";
             transition: font-size .2s;
             background-color: rgba(142, 249, 172, .5);
+            
         }
         
         .icon-heart:before {
