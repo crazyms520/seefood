@@ -42,6 +42,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             height: 100%;
             content: "\e9a3";
         }
+        .icon-spoon-knife:hover {
+            font-size: 35px;
+        }
         .icon-heart:before {
             position: absolute;
             top: 20%;
