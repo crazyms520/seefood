@@ -61,6 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
         .nav-bar {
             position: fixed;
+            display: inline-block;
             bottom: 0;
             left: 50%;
             z-index: 1;
@@ -90,17 +91,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="nav-bar">
             <div class="circle_content">
                 <div class="circle" >
-                    <span class="icon-spoon-knife">
+                    <!-- <span class="icon-spoon-knife"> -->
                 </div>
             </div> 
             <div class="circle_content">
                 <div class="circle" >
-                    <span class="icon-heart"></span>
+                    <!-- <span class="icon-heart"></span> -->
                 </div> 
             </div>
-            
-            
-            <!-- <div class="circle" ></div> -->
         </div>
         <!-- google map-->
         <div id="map"></div>
