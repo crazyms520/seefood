@@ -37,9 +37,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: inline-block;
             text-align: center;
             font-size: 30px;
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
             content: "\e9a3";
             transition: all;
             border-radius: 50%;
@@ -48,9 +48,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
         .icon-spoon-knife:hover::before {
             font-size: 35px;
-            width: 65px;
-            height: 65px;
-            line-height: 65px;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
             background-color: rgba(142, 249, 172, 1);
         }
         
@@ -89,6 +89,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .circle {
             position: relative;
             display: inline-block;
+            width: 60px;
+            height: 60px;  
+        }
+        .circle:hover {
             width: 65px;
             height: 65px;  
         }
