@@ -92,10 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             width: 60px;
             height: 60px;  
         }
-        .circle:hover {
-            width: 65px;
-            height: 65px;  
-        }
+        
     </style>
   </head>
   <body>
