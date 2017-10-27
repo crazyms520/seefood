@@ -41,6 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             height: 100%;
             content: "\e9a3";
             transition: font-size .2s;
+            border-radius: 50%;
             background-color: rgba(142, 249, 172, .5);
             
         }
